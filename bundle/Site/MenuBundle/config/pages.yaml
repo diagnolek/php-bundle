@@ -1,0 +1,14 @@
+parameters:
+  pages:
+    Wzorce:
+      route: ""
+      style: "dropdown"
+      pages:
+        Kompozyt:
+          route: ""
+          style: "dropdown"
+          pages:
+            Parametry:
+              route: "example_hello"
+              style: "dropdown-item"
+

@@ -1,0 +1,20 @@
+{
+  "name": "site/menu-bundle",
+  "version": "1.0.0",
+  "type": "symfony-bundle",
+  "description": "this generator menu bundle",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Site\\MenuBundle\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Site\\MenuBundle\\Tests": "tests/"
+    }
+  }
+}

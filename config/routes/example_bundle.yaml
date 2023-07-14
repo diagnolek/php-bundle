@@ -1,0 +1,2 @@
+example_hello_bundle.routers:
+  resource: '@ExampleHelloBundle/config/routes.yaml'

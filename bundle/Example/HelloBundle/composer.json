@@ -1,0 +1,20 @@
+{
+  "name": "example/hello-bundle",
+  "version": "0.1.0",
+  "type": "symfony-bundle",
+  "description": "this test bundle",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Example\\HelloBundle\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Example\\HelloBundle\\Tests": "tests/"
+    }
+  }
+}

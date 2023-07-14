@@ -1,0 +1,9 @@
+parameters:
+
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+
+  Site\MenuBundle\Service\SiteNavigation:
+    public: true
